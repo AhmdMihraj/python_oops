@@ -33,3 +33,17 @@ class studentclass:
     def usernameandpassword(self,email,password):
         self.email_address = email
         self.password = password
+
+
+    def studentdetails(self,fullname,date_of_birth,gender,preferred_language,school_college_name,class_grade,board_curriculum,academic_year):
+        if len(phone_number) != 10:
+            self.phone_number = phone_number
+            
+        self.fullname = fullname
+        self.date_of_birth = date_of_birth
+        self.gender = gender
+        self.preferred_language = preferred_language
+        self.school_college_name = school_college_name
+        self.class_grade = class_grade
+        self.board_curriculum = board_curriculum
+        self.academic_year = academic_year
