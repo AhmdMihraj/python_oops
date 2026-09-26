@@ -7,6 +7,7 @@ class studentclass:
         self.gender = ""
         self.mobile_number = ""
         self.email_address = ""
+        self.password = ""
         self.preferred_language = ""
         self.school_college_name = ""
         self.class_grade = ""
@@ -23,10 +24,12 @@ class studentclass:
         self.parent_email_address = ""
         self.preferred_communication_method = ""
 
-    def __str__(self):
-        return (
-            f"Student: {self.fullname or self.name}, DOB: {self.date_of_birth}, "
+        def __str__(self):
+            return (
+                f"Student: {self.fullname or self.name}, DOB: {self.date_of_birth}, "
             f"Age: {self.age}, Gender: {self.gender}, Mobile: {self.mobile_number}, "
             f"Email: {self.email_address}, Language: {self.preferred_language}"
         )
-    
+    def usernameandpassword(self,email,password):
+        self.email_address = email
+        self.password = password
