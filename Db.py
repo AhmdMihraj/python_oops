@@ -36,27 +36,6 @@ cursor.execute("""
     )
 """)
 
-cursor.execute("""
-INSERT INTO students VALUES (
-        001,
-        'mihraj',
-        'Ahmd Mihraj',
-        19,
-        7592848759,
-        'mihrajmj3@gmail.com',
-        'mj@123',
-        '2007-06-01',
-        'male',
-        'english',
-        'Ilahia college of arts and science',
-        'A',
-        'computer science',
-        '2025-2028',
-        'c,python,java',
-        'beginner,beginner,beginner',
-        'non'
-    )
-""")
 # Save changes
 conn.commit()
  
