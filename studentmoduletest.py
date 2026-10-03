@@ -25,4 +25,5 @@ class_grade = input("enter your class/grade")
 board_curriculum = input("enter your board/curriculum")
 academic_year = input("enter your academic year")
 
-s1.studentdetails(fullname,date_of_birth,gender,preferred_language,school_college_name,class_grade,board_curriculum,academic_year)
+s1.studentdetails(phone_number,fullname,date_of_birth,gender,preferred_language,school_college_name,class_grade,board_curriculum,academic_year)
+s1.savetoDB()
